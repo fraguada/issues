@@ -14,7 +14,7 @@ animate()
 function create() {
 
     const geometry = new THREE.DodecahedronGeometry( 250, 5 )
-    const material = new THREE.MeshStandardMaterial({side:2})
+    const material = new THREE.MeshStandardMaterial()
     const mesh = new THREE.Mesh( geometry, material )
     mesh.castShadow = true
     mesh.receiveShadow = true
